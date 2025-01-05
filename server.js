@@ -19,7 +19,7 @@ const MERCHANT_STATUS_URL = "https://api.phonepe.com/apis/hermes/pg/v1/status"
 // const MERCHANT_BASE_URL="https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/pay"
 // const MERCHANT_STATUS_URL="https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status"
 
-const redirectUrl="http://localhost:8000/status"
+const redirectUrl="https://phonepe-kek2.onrender.com/status"
 
 const successUrl="http://localhost:5173/payment-success"
 const failureUrl="http://localhost:5173/payment-failure"
