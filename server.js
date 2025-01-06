@@ -10,8 +10,10 @@ app.use(express.json());
 app.use(cors());
 
 
-const MERCHANT_KEY="944a13ea-89fe-47e2-bb9c-34bce182cdf1"
-const MERCHANT_ID="M22CA7BWH4KS2"
+// const MERCHANT_KEY="944a13ea-89fe-47e2-bb9c-34bce182cdf1"
+// const MERCHANT_ID="M22CA7BWH4KS2"
+const MERCHANT_KEY="099eb0cd-02cf-4e2a-8aca-3e6c6aff0399"
+const MERCHANT_ID="PGTESTPAYUAT"
 
 const MERCHANT_BASE_URL = "https://api.phonepe.com/apis/hermes/pg/v1/pay"
 const MERCHANT_STATUS_URL = "https://api.phonepe.com/apis/hermes/pg/v1/status"
