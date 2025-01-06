@@ -21,10 +21,10 @@ const MERCHANT_STATUS_URL = "https://api.phonepe.com/apis/hermes/pg/v1/status"
 
 const redirectUrl="https://phonepe-kek2.onrender.com/status"
 
-const successUrl="http://localhost:5173/payment-success"
-const failureUrl="http://localhost:5173/payment-failure"
+const successUrl="https://survey.sunscape.solar/"
+const failureUrl="https://survey.sunscape.solar/"
 
-
+// https://phonepe-kek2.onrender.com/create-order
 app.post('/create-order', async (req, res) => {
 
     const {name, mobileNumber, amount} = req.body;
